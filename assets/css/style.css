@@ -258,7 +258,7 @@ body {
   border-radius: 0;
 }
 .upload-image-sec {
-  margin: 50px 0;
+ padding-bottom: 50px;
 }
 .upload-btns button {
   margin-bottom: 20px;
@@ -292,7 +292,7 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  min-height: 90vh;
+  min-height: 70vh;
 }
 @media (max-width: 575px) {
   .result-title img {
