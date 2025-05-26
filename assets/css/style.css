@@ -218,7 +218,7 @@ body {
 }
 @media(max-width:640px){
     .insruction-para{
-        margin: 80px auto 10px;
+        margin: 80px auto 30px;
     }
 }
 @media(max-width:425px){
