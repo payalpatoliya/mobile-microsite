@@ -24,6 +24,7 @@ img {
 }
 body {
   font-family: "Montserrat";
+  overflow-x: hidden;
 }
 @media (max-width: 767px) {
   .container {
