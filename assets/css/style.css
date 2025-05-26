@@ -40,6 +40,11 @@ body {
     max-width: 356px !important;
   }
 }
+@media (max-width: 390px) {
+  .container {
+    max-width: 326px !important;
+  }
+}
 @media (max-width: 320px) {
   .container {
     padding: 0 20px;
@@ -178,7 +183,7 @@ body {
 }
 @media (max-width: 390px) {
   .cloud-3 {
-    left: -26px;
+    left: -20px;
   }
   .start-sec-data {
     padding: 15px 10px;
@@ -193,7 +198,6 @@ body {
     max-width: 38px;
   }
   .cloud-3 {
-    left: -17px;
     max-width: 43px;
   }
   .start-sec-data p {
