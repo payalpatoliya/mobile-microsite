@@ -24,7 +24,6 @@ img {
 }
 body {
   font-family: "Montserrat";
-  overflow-x: hidden;
 }
 @media (max-width: 767px) {
   .container {
@@ -60,6 +59,7 @@ body {
   max-width: 768px;
   margin: auto;
   position: relative;
+  overflow-y: auto;
   background-image: url("../image/bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -68,7 +68,7 @@ body {
 
 /* ---start-sec--start */
 .start-sec {
-  margin-top: 39px;
+  padding-top: 39px;
   position: relative;
 }
 .logo-info {
