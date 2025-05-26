@@ -53,8 +53,7 @@ body {
 /* --- */
 .main {
   width: 100%;
-  height: 100%;
-  min-height: 100vh;
+   height: 100dvh;
   max-width: 768px;
   margin: auto;
   position: relative;
