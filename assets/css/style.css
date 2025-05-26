@@ -242,6 +242,10 @@ body {
   line-height: 32px;
   font-weight: 500;
 }
+.upload-img-info .form-label img{
+    width: 100%;
+    max-width: 270px;
+}
 .form-control:focus {
   box-shadow: none;
 }
@@ -289,6 +293,11 @@ body {
   flex-direction: column;
   width: 100%;
   min-height: 90vh;
+}
+@media(max-width:575px){
+    .result-title img{
+        max-width: 200px;
+    }
 }
 /* result-sec -end */
 

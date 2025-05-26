@@ -17,22 +17,27 @@
     <div class="main upload-main">
         <section class="upload-image-sec">
             <div class="container">
-            <form class="upload-img-info">
+            <form class="upload-img-info" onsubmit="return false;">
                 <div class="mb-3">
-                    <label for="nickname" class="form-label">ENTER NICKNAME:</label>
+                    <label for="nickname" class="form-label"><img src="assets/image/nickname.png" alt=""></label>
                     <input type="text" id="nickname" name="nickname" class="form-control">
                 </div>
                <div class="upload-btns">
                 <input type="file" id="fileUpload" style="display: none;" />
-                <button onclick="document.getElementById('fileUpload').click();">
-                    <img src="assets/image/upload.png" alt="Upload" />
-                </button>
-                <a href="#"><img src="assets/image/next.png" alt="Next" /></a>
+                 <button type="button" onclick="triggerFileUpload()" class="upload-button">
+                    <img src="assets/image/upload.png" alt="Choose Image" title="Click to select an image" />
+                    </button>
+                <a href="result.html"><img src="assets/image/next.png" alt="Next" /></a>
                 </div>
             </form>
             </div>
         </section>
     </div>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+         function triggerFileUpload() {
+    document.getElementById('fileUpload').click();
+  }
+    </script>
 </body>
 </html>
