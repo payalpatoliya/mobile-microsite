@@ -341,6 +341,7 @@ body {
 }
 .collect-sec {
   padding-top: 200px;
+  overflow-x: hidden;
 }
 .cloud-5 {
   position: absolute;
