@@ -41,9 +41,9 @@ body {
   }
 }
 @media (max-width: 320px) {
-.container{
-        padding: 0 20px;
-    }
+  .container {
+    padding: 0 20px;
+  }
 }
 /* --- */
 .main {
@@ -165,7 +165,7 @@ body {
     font-size: 16px;
     line-height: 20px;
   }
-  .btn1{
+  .btn1 {
     margin: 24px 0;
   }
 }
@@ -190,9 +190,9 @@ body {
     max-width: 43px;
   }
   .start-sec-data p {
-        font-size: 14px;
-        line-height: 18px;
-    }
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 /* ---start-sec--end */
 
@@ -216,19 +216,19 @@ body {
   font-weight: 500;
   margin-bottom: 15px;
 }
-@media(max-width:640px){
-    .insruction-para{
-        margin: 80px auto 30px;
-    }
+@media (max-width: 640px) {
+  .insruction-para {
+    margin: 80px auto 30px;
+  }
 }
-@media(max-width:425px){
-   .insruction-para ul li {
+@media (max-width: 425px) {
+  .insruction-para ul li {
     font-size: 16px;
     line-height: 20px;
-   }
-   .insruction-para{
-       max-width: 312px;
-   }
+  }
+  .insruction-para {
+    max-width: 312px;
+  }
 }
 /* --insruction-para--end */
 
@@ -242,9 +242,9 @@ body {
   line-height: 32px;
   font-weight: 500;
 }
-.upload-img-info .form-label img{
-    width: 100%;
-    max-width: 270px;
+.upload-img-info .form-label img {
+  width: 100%;
+  max-width: 270px;
 }
 .form-control:focus {
   box-shadow: none;
@@ -294,10 +294,10 @@ body {
   width: 100%;
   min-height: 90vh;
 }
-@media(max-width:575px){
-    .result-title img{
-        max-width: 200px;
-    }
+@media (max-width: 575px) {
+  .result-title img {
+    max-width: 200px;
+  }
 }
 /* result-sec -end */
 
@@ -362,5 +362,36 @@ body {
   width: 100%;
   max-width: 300px;
   object-fit: cover;
+}
+@media (max-width: 640px) {
+  .cloud-6 {
+    right: -21%;
+    max-width: 170px;
+  }
+}
+@media (max-width: 575px) {
+  .cloud-6 {
+    max-width: 159px;
+    top: -19%;
+  }
+}
+@media (max-width: 490px) {
+  .collect-info {
+    max-width: 288px;
+  }
+  .collect-info p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .cloud-6 {
+    max-width: 133px;
+    top: -15%;
+  }
+  .cloud-5 {
+    max-width: 81px;
+  }
+  .cloud-7 {
+        max-width: 61px;
+  }
 }
 /* ---collect end */
